@@ -1,0 +1,34 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.scene-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #0f172a, #1e293b);
+}
+
+.coming-soon {
+  text-align: center;
+  color: #f1f5f9;
+  padding: 2rem;
+}
+
+.coming-soon h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #a78bfa, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.coming-soon p {
+  font-size: 1.25rem;
+  color: #94a3b8;
+  margin: 0.5rem 0;
+}
